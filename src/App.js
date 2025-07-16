@@ -8,7 +8,7 @@ function App() {
 
   return (
     <div className="app-container">
-      <Router>
+      <Router basename="/Clinic_Appointment_Calendar">
         {isAuthenticated && (
           <header className="app-header">
             <button
